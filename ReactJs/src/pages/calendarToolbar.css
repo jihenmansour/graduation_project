@@ -1,0 +1,42 @@
+
+  .circle li {
+    list-style: none;
+    line-height: 0.75rem;
+    position: relative;
+    padding-bottom: 1.5rem;
+  }
+  
+   .circle li:before {
+    content: "";
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    border-radius: 50%;
+    float: left;
+   
+
+  }
+  .item1::before{
+      background-color:rgb(255, 77, 79);
+  }
+  .item2::before{
+    background-color:rgb(254, 176, 25);
+}
+.item3::before{
+    background-color:rgb(0, 143, 251);
+}
+.item4::before{
+    background-color:rgb(0, 227, 150);
+}
+h6{
+    float:left;
+    padding-left: 1em;
+    font-size: 12px;
+    text-transform: none;
+}
+@media only screen and (min-width: 900px) {
+  .rbc-toolbar-label{
+    float: right;
+    margin-left: 220px;
+  }
+}
